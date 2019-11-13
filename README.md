@@ -1,8 +1,7 @@
 ***Common***
 - mkdir "for-mount"
-(for qemu)
-- prepare qemu script and defconfig file at dir "qemu-scripts"
-- mkdir "tizen-image"
+- prepare qemu script and defconfig file at dir "qemu-scripts" (only for qemu)
+- mkdir "tizen-image" (only for qemu)
 
 ***in case of rpi3 device***
 1. ./set_rpi3_env.py (modify team list and branch name to checkout)
