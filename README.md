@@ -18,4 +18,4 @@
    - arm-linux-gnueabi-gcc -I"your kernel path"/include "test.c" -o test
 3. ./mk_env_per_team.sh "team number"
 4. ./mount_and_move_file_qemu.sh "file"
-5. "team-repo"/qemu.sh
+5. cd "team-repo" and ./qemu.sh
